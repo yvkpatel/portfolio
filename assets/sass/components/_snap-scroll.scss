@@ -1,0 +1,13 @@
+.y-scroll-timeline {
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+
+    .snap-point {
+        scroll-snap-align: start;
+        padding-bottom: 35vh;
+
+        &:not(:first-child) {
+            padding-top: 10vh;
+        }
+    }
+}
